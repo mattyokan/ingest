@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.panel-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  min-width: 100vw;
+}
+
+.decline, .content, .approve {
+  height: 100%;
+}
+
+.content {
+  max-width: 80vw;
+  min-width: 80vw;
+  padding: 5vw;
+}
+
+.decline, .approve {
+  justify-content: center;
+}
+
+.decline  button {
+  background: red;
+  border: 1px solid darkred;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  height:  100%;
+}
+
+.approve button {
+  background: green;
+  border: 1px solid darkgreen;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: white;
+  height: 100%;
+}
+
+.site-header {
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+}
